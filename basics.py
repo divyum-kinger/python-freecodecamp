@@ -12,14 +12,14 @@ st1 = "20"
 b = int(st1)
 print(b)
 
-#operators +-*/ % ** // floor division
+# operators +-*/ % ** // floor division
 
-#conditional operators
-#OR (x or y)
+# conditional operators
+# OR (x or y)
 # x OR y
 # if x is false then y else x
 
-#AND (x and y)
+# AND (x and y)
 # x AND y
 # if x is false then x else y
 
@@ -30,7 +30,7 @@ print(b)
 # | performs binary OR
 #
 
-#comment
+# comment
 
 # indentation is very very important
 # name = "dk'
@@ -43,3 +43,18 @@ if done:
     print("yes")
 else:
     print("no")
+
+from enum import Enum
+
+
+class State(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+
+
+print(len(State))
+
+
+#input
+age = input("What is your age?: ")
+print("You are "+age+" years old")
