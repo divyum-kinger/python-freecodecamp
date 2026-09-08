@@ -19,5 +19,15 @@ hehe.sort(key=str.lower) #this will change the list
 print(sorted(hehe, key=str.lower)) #this wont change the listk
 print(hehe)
 
-# Tuples
+# Tuples lists but these cannot be modifed
 names = ("Roger", "Syd")
+print(names[0])
+names.index("Roger")
+len(names)
+
+print("Roger" in names)
+print(sorted(names)) #wont modify the Tuple
+
+#dictionary (hashmaps)
+hehe = {"name":"Roger", "age":8}
+print(hehe['name'])
