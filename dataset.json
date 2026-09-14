@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that parses an AWS S3 URI (e.g., s3://bucket-name/path/to/object) and returns a dictionary with keys 'bucket' and 'key'"
+  },
+  {
+    "task": "Generate a JSON object representing an the platform IAM policy that allows s3:GetObject and s3:PutObject actions on a specific S3 bucket ARN"
+  },
+  {
+    "task": "Write a regex pattern that matches valid the platform EC2 instance IDs (format: i- followed by 17 hexadecimal characters)"
+  }
+]
